@@ -10,7 +10,7 @@ import (
 
 func Run() {
 
-	dat, err := os.ReadFile("input")
+	dat, err := os.ReadFile("sonarSweep/input")
 	helpers.Check(err)
 
 	stringDat := string(dat)
